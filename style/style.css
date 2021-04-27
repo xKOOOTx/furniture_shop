@@ -153,6 +153,22 @@ body a:hover {
 .exclusive {
   display: flex;
 }
+.exclusive .article__block_overhead {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1e88e5;
+}
+.exclusive .article__block_header {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212121;
+}
+.exclusive .article__block_text {
+  font-size: 14.1px;
+  font-weight: 300;
+  color: #6c6c6c;
+}
 .exclusive__block {
   padding: 230px 260px 260px 50px;
   width: 100%;
@@ -348,6 +364,7 @@ body a:hover {
 }
 .footer__top_stayInTouch_input {
   margin-top: 25px;
+  width: 100%;
   padding: 17px 188px 17px 20px;
   border: 1px solid #d9dee1;
   background-color: #fff;

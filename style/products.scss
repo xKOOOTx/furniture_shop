@@ -1,0 +1,57 @@
+@import "variables";
+.products {
+  background: $productsBackgroundColor;
+  &__header {
+    padding-top: 70px;
+    padding-bottom: 44px;
+    &_text {
+      font-size: 62px;
+      font-weight: 100;
+      color: $font-color;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.main {
+  &__navigation {
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    &:after {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 1px;
+      background-color: $font-color;
+    }
+    &_link {
+      display: inline-block;
+      position: relative;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $font-grey;
+      &:after {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 3px;
+        background-color: $font-color;
+        transition: width .2s ease-in-out, color .2s ease-in-out;
+      }
+      &:hover {
+        text-decoration: none;
+        color: $font-color;
+        &:after {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .trending__gallery {
+    padding-bottom: 71px;
+  }
+}

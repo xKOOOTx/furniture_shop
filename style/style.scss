@@ -181,6 +181,24 @@ body {
 
 .exclusive {
   display: flex;
+  .article__block {
+    &_overhead {
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $blueText;
+    }
+    &_header {
+      font-size: 36px;
+      font-weight: 700;
+      color: $font-color;
+    }
+    &_text {
+      font-size: 14.1px;
+      font-weight: 300;
+      color: $font-grey;
+    }
+  }
   &__block {
     padding: 230px 260px 260px 50px;
     width: 100%;
@@ -391,6 +409,7 @@ body {
       }
       &_input {
         margin-top: 25px;
+        width: 100%;
         padding: 17px 188px 17px 20px;
         border: 1px solid $inputBorderColor;
         background-color: $white;
@@ -623,22 +642,21 @@ body {
 .grey-text {
   color: $font-grey;
 }
+
 .fa-facebook-f {
   padding: 11px 14px;
 }
-
 .fa-twitter {
   padding: 10px 11px;
 }
-
 .fa-google-plus-g {
   padding: 11px 10px;
 }
-
 .fa-pinterest-p {
   padding: 10px 14px;
 }
-
 .fab {
   transition: color .3s ease-in-out;
 }
+
+
