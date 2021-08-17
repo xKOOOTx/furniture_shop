@@ -12,12 +12,12 @@
 <body>
     <header class="header products">
         <div class="header__block center">
-        <a href="index.html" class="header__logo_link">
-            <img src="images/logo.png" alt="header__logo_img" class="header__logo_img">
-        </a>
-        <div class="header__navigation">
+            <a href="index.html" class="header__logo_link">
+                <img src="images/logo.png" alt="header__logo_img" class="header__logo_img">
+            </a>
+            <div class="header__navigation">
             <a href="index.html" class="header__navigation_item">home</a>
-            <a href="#" class="header__navigation_item">products</a>
+            <a href="#" class="header__navigation_item header__navigation_item">products</a>
             <a href="#" class="header__navigation_item">history</a>
             <a href="#" class="header__navigation_item">showroom</a>
             <a href="#" class="header__navigation_item">contact</a>
@@ -25,7 +25,20 @@
                 <img src="images/search_lens.png" alt="search_lens">
             </a>
         </div>
-    </div>
+            <div class="header__mobileNav">
+                <img src="./images/close.svg" class="header__mobileNav_closeBtn" id="burgerClose">
+                <div class="header__mobileNav_block">
+                    <a href="index.html" class="header__mobileNav_item header__mobileNav_item-active">home</a>
+                    <a href="products.html" class="header__mobileNav_item">products</a>
+                    <a href="#" class="header__mobileNav_item">history</a>
+                    <a href="#" class="header__mobileNav_item">showroom</a>
+                    <a href="#" class="header__mobileNav_item">contact</a>
+                    <a href="" class="header__mobileNav_item">
+                        <img src="images/search_lens.png" alt="search_lens">
+                    </a>
+                </div>
+            </img>
+        </div>
         <div class="products__header center">
             <h1 class="products__header_text">
                 our products range
@@ -40,9 +53,8 @@
             <a href="#" class="main__navigation_link">furniture</a>
             <a href="#" class="main__navigation_link">modern</a>
             <a href="#" class="main__navigation_link">classic</a>
-
         </nav>
-        <div class="trending__gallery center">
+        <div class="trending__gallery">
             <div class="trending__gallery_item">
                 <a href="#" class="trending__gallery_link">
                     <img src="images/trending1.jpg" alt="trending1">
@@ -73,6 +85,41 @@
                     <img src="images/trending6.jpg" alt="trending1">
                 </a>
             </div>
+            <div class="trending__gallery_item">
+                <a href="#" class="trending__gallery_link">
+                    <img src="images/trending1.jpg" alt="trending1">
+                </a>
+            </div>
+            <div class="trending__gallery_item">
+                <a href="#" class="trending__gallery_link">
+                    <img src="images/trending2.jpg" alt="trending1">
+                </a>
+            </div>
+            <div class="trending__gallery_item">
+                <a href="#" class="trending__gallery_link">
+                    <img src="images/trending3.jpg" alt="trending1">
+                </a>
+            </div>
+            <div class="trending__gallery_item">
+                <a href="#" class="trending__gallery_link">
+                    <img src="images/trending4.jpg" alt="trending1">
+                </a>
+            </div>
+            <div class="trending__gallery_item">
+                <a href="#" class="trending__gallery_link">
+                    <img src="images/trending5.jpg" alt="trending1">
+                </a>
+            </div>
+            <div class="trending__gallery_item">
+                <a href="#" class="trending__gallery_link">
+                    <img src="images/trending6.jpg" alt="trending1">
+                </a>
+            </div>
+        </div>
+        <div class="showMore">
+            <button class="showMore__reload">
+                <i class="fas fa-sync-alt showMore__reload_img"></i>
+            </button>
         </div>
         <div class="exclusive">
             <article class="article__block exclusive__block red-chair">

@@ -38,6 +38,8 @@
         position: absolute;
         content: '';
         width: 0;
+        left: 0;
+        bottom: 0;
         height: 3px;
         background-color: $font-color;
         transition: width .2s ease-in-out, color .2s ease-in-out;
@@ -53,5 +55,21 @@
   }
   .trending__gallery {
     padding-bottom: 71px;
+    grid-column-gap: 2vw;
+  }
+}
+
+.showMore {
+  display: flex;
+  justify-content: center;
+  &__reload {
+    display: block;
+    outline: none;
+    border: none;
+    background: transparent;
+    &_img {
+      width: 10px;
+      height: 10px;
+    }
   }
 }
