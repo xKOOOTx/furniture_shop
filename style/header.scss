@@ -1,0 +1,52 @@
+@import 'variables';
+
+.header {
+  background: $greyLight;
+  &__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+  }
+  &__nav {
+    display: flex;
+    &_element {
+      &_link {
+
+      }
+    }
+  }
+  &__burgerMenuBtnWrapper {
+    cursor: pointer;
+
+  }
+  &__burgerMenuBtn {
+    position: relative;
+    width: 25px;
+    height: 2px;
+    background: $black;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 25px;
+      height: 2px;
+      background: $black;
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 25px;
+      height: 2px;
+      background: $black;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.header__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__nav {
+  display: flex;
+}
+
+/*# sourceMappingURL=header.css.map */

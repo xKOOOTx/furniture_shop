@@ -10,192 +10,85 @@
     <title>Products</title>
 </head>
 <body>
-    <header class="header products">
-        <div class="header__block center">
-            <a href="index.html" class="header__logo_link">
-                <img src="images/logo.png" alt="header__logo_img" class="header__logo_img">
-            </a>
-            <div class="header__navigation">
-            <a href="index.html" class="header__navigation_item">home</a>
-            <a href="#" class="header__navigation_item header__navigation_item">products</a>
-            <a href="#" class="header__navigation_item">history</a>
-            <a href="#" class="header__navigation_item">showroom</a>
-            <a href="#" class="header__navigation_item">contact</a>
-            <a href="" class="header__navigation_item">
-                <img src="images/search_lens.png" alt="search_lens">
-            </a>
-        </div>
-            <div class="header__mobileNav">
-                <img src="./images/close.svg" class="header__mobileNav_closeBtn" id="burgerClose">
-                <div class="header__mobileNav_block">
-                    <a href="index.html" class="header__mobileNav_item header__mobileNav_item-active">home</a>
-                    <a href="products.html" class="header__mobileNav_item">products</a>
-                    <a href="#" class="header__mobileNav_item">history</a>
-                    <a href="#" class="header__mobileNav_item">showroom</a>
-                    <a href="#" class="header__mobileNav_item">contact</a>
-                    <a href="" class="header__mobileNav_item">
-                        <img src="images/search_lens.png" alt="search_lens">
-                    </a>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__block">
+                <a href="./index.html" class="header__homeLink"><img src="./images/logo.png" alt="logo" class="header__homeLink_img"></a>
+                <ul class="header__nav">
+                    <li class="header__nav_element">
+                        <a href="#" class="header__nav_element_link">home</a>
+                    </li>
+                    <li class="header__nav_element">
+                        <a href="#" class="header__nav_element_link">products</a>
+                    </li>
+                    <li class="header__nav_element">
+                        <a href="#" class="header__nav_element_link">history</a>
+                    </li>
+                    <li class="header__nav_element">
+                        <a href="#" class="header__nav_element_link">showroom</a>
+                    </li>
+                    <li class="header__nav_element">
+                        <a href="#" class="header__nav_element_link">contact</a>
+                    </li>
+                </ul>
+                <img src="./images/search_lens.png" alt="search" class="header__searchBtn">
+                <div class="header__burgerMenuBtnWrapper">
+                    <div class="header__burgerMenuBtn"></div>
                 </div>
-            </img>
-        </div>
-        <div class="products__header center">
-            <h1 class="products__header_text">
-                our products range
-            </h1>
+            </div>
         </div>
     </header>
-    <main class="main">
-        <nav class="main__navigation center">
-            <a href="#" class="main__navigation_link">all</a>
-            <a href="#" class="main__navigation_link">home</a>
-            <a href="#" class="main__navigation_link">office</a>
-            <a href="#" class="main__navigation_link">furniture</a>
-            <a href="#" class="main__navigation_link">modern</a>
-            <a href="#" class="main__navigation_link">classic</a>
-        </nav>
-        <div class="trending__gallery">
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending1.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending2.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending3.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending4.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending5.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending6.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending1.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending2.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending3.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending4.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending5.jpg" alt="trending1">
-                </a>
-            </div>
-            <div class="trending__gallery_item">
-                <a href="#" class="trending__gallery_link">
-                    <img src="images/trending6.jpg" alt="trending1">
-                </a>
-            </div>
-        </div>
-        <div class="showMore">
-            <button class="showMore__reload">
-                <i class="fas fa-sync-alt showMore__reload_img"></i>
-            </button>
-        </div>
-        <div class="exclusive">
-            <article class="article__block exclusive__block red-chair">
-                <h3 class="article__block_overhead">exclusive</h3>
-                <h1 class="article__block_header">fishnet chair</h1>
-                <p class="article__block_text">
-                    Seat and back with upholstery made of cold cure foam.
-                    Steel frame available in matt powder-coated black.
-                </p>
-                <a href="#" class="article__block_button button">
-                    order us
-                    <img src="images/black__arrow_right.png" alt="arrow">
-                </a>
-            </article>
-            <article class="article__block exclusive__block wooden-chair">
-                <h3 class="article__block_overhead">trending</h3>
-                <h1 class="article__block_header">fishnet chair</h1>
-                <p class="article__block_text">
-                    Seat and back with upholstery made of cold cure foam.
-                    Steel frame available in matt powder-coated black.
-                </p>
-                <a href="#" class="article__block_button button">
-                    order us
-                    <img src="images/black__arrow_right.png" alt="arrow">
-                </a>
-            </article>
-        </div>
-    </main>
+    <main></main>
     <footer class="footer">
-        <div class="footer__top">
-            <div class="footer__top_contactUs">
-                <h3 class="footer__top_contactUs_header">contact us</h3>
-                <p class="footer__top_contactUs_address">132A Bridge Road Richmond VIC Australia.</p>
-                <p class="footer__top_contactUs_phone">Talk to us on 1300 132</p>
-                <a href="#"><p class="footer__top_contactUs_email">info@interior.com</p></a>
-            </div>
-            <div class="footer__top_usefulInformation">
-                <div class="footer__top_usefulInformation_header">useful information</div>
-                <div class="footer__top_usefulInformation_links">
-                    <div class="footer__top_usefulInformation_linksBlock">
-                        <a href="" class="footer__top_usefulInformation_links_item">sales term</a>
-                        <a href="" class="footer__top_usefulInformation_links_item">customer care</a>
-                        <a href="" class="footer__top_usefulInformation_links_item">delivery</a>
-                    </div>
-                    <div class="footer__top_usefulInformation_linksBlock">
-                        <a href="" class="footer__top_usefulInformation_links_item">architect accounts</a>
-                        <a href="" class="footer__top_usefulInformation_links_item">careers</a>
-                        <a href="" class="footer__top_usefulInformation_links_item">exchanges & returns</a>
+        <div class="footer__wrapper">
+            <div class="footer__top">
+                <div class="footer__top_contactUs">
+                    <h3 class="footer__top_contactUs_header">contact us</h3>
+                    <p class="footer__top_contactUs_address">132A Bridge Road Richmond VIC Australia.</p>
+                    <p class="footer__top_contactUs_phone">Talk to us on 1300 132</p>
+                    <a href="#"><p class="footer__top_contactUs_email">info@interior.com</p></a>
+                </div>
+                <div class="footer__top_usefulInformation">
+                    <div class="footer__top_usefulInformation_header">useful information</div>
+                    <div class="footer__top_usefulInformation_links">
+                        <div class="footer__top_usefulInformation_linksBlock">
+                            <a href="" class="footer__top_usefulInformation_links_item">sales term</a>
+                            <a href="" class="footer__top_usefulInformation_links_item">customer care</a>
+                            <a href="" class="footer__top_usefulInformation_links_item">delivery</a>
+                        </div>
+                        <div class="footer__top_usefulInformation_linksBlock">
+                            <a href="" class="footer__top_usefulInformation_links_item">architect accounts</a>
+                            <a href="" class="footer__top_usefulInformation_links_item">careers</a>
+                            <a href="" class="footer__top_usefulInformation_links_item">exchanges & returns</a>
+                        </div>
                     </div>
                 </div>
+                <div class="footer__top_stayInTouch">
+                    <h3 class="footer__top_stayInTouch_header">Let’s Stay in Touch!</h3>
+                    <p class="footer__top_stayInTouch_text">
+                        Subscribe to know about our latest news, products and
+                        special offers just for subscribers.
+                    </p>
+                    <input type="text" class="footer__top_stayInTouch_input" placeholder="your email address">
+                </div>
             </div>
-            <div class="footer__top_stayInTouch">
-                <h3 class="footer__top_stayInTouch_header">Let’s Stay in Touch!</h3>
-                <p class="footer__top_stayInTouch_text">
-                    Subscribe to know about our latest news, products and
-                    special offers just for subscribers.
-                </p>
-                <input type="text" class="footer__top_stayInTouch_input" placeholder="your email address">
-            </div>
-        </div>
-        <div class="footer__bottom">
-            <div class="footer__bottom_copyright">&copy; copyright - interior 2016. all rights Reserved</div>
-            <div class="footer__bottom_socials">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            </div>
-            <div class="footer__bottom_terms">
-                <a href="#" class="footer__bottom_terms_text">
-                    terms & conditions
-                </a>
-                <span class="footer__bottom_terms-slash">/</span>
-                <a href="#" class="footer__bottom_terms_text">
-                    privacy policy & cookies
-                </a>
+            <div class="footer__bottom">
+                <div class="footer__bottom_copyright">&copy; copyright - interior 2016. all rights Reserved</div>
+                <div class="footer__bottom_socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+                <div class="footer__bottom_terms">
+                    <a href="#" class="footer__bottom_terms_text">
+                        terms & conditions
+                    </a>
+                    <span class="footer__bottom_terms-slash">/</span>
+                    <a href="#" class="footer__bottom_terms_text">
+                        privacy policy & cookies
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
